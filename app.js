@@ -204,7 +204,7 @@ app.delete('/deleteOrder/:id',(req,res) => {
 // Connection with db
 MongoClient.connect(mongoUrl,(err,client) => {
     if(err) console.log('Error While Connecting');
-    db = client.db('test');
+    db = client.db('zomato');
     app.listen(port,(err) =>{
         if(err) throw err;
         console.log(`Express is run on port ${port}`)
