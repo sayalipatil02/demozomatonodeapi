@@ -10,6 +10,6 @@ let server = http.createServer((req,res) =>{
     })
 })
 
-server.listen(8080,() =>{
-    console.log('server is running on port 8080')
+server.listen(9870,() =>{
+    console.log('server is running on port 9870')
 })
